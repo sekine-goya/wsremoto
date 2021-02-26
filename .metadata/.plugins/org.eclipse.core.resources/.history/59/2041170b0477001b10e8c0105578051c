@@ -1,0 +1,47 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class DoDesafio {
+
+	public static void main(String[] args) {
+		
+		int Jogador1 = Integer.parseInt(JOptionPane.showInputDialog("Jogador1: ").toUpperCase());
+		int jogador2 = 0;
+		int contagem = 0;
+		do {
+		int Jogador2 = Integer.parseInt(JOptionPane.showInputDialog("Jogador2: ").toUpperCase());
+		contagem=contagem+1;
+		if (Jogador2>Jogador1) {
+			System.out.println("Você está chutando alto");
+		}else if(Jogador)
+		}
+		if int Jogador1 = Integer.parseInt(JOptionPane.showInputDialog("Jogador1: ").toUpperCase());int Jogador1 = Integer.parseInt(JOptionPane.showInputDialog("Jogador1: ").toUpperCase());int Jogador1 = Integer.parseInt(JOptionPane.showInputDialog("Jogador1: ").toUpperCase());int Jogador1 = Integer.parseInt(JOptionPane.showInputDialog("Jogador1: ").toUpperCase());int Jogador1 = Integer.parseInt(JOptionPane.showInputDialog("Jogador1: ").toUpperCase());int Jogador1 = Integer.parseInt(JOptionPane.showInputDialog("Jogador1: ").toUpperCase());
+		{
+		
+	}while(Jogador1!=Jogador2);
+	
+		System.out.println("Parabéns");
+		
+		
+		/*
+		 * Jogador 1 vai digitar um número
+		 * Jogador 2 vai ter que advinhar o numero
+		 * 
+		 * O jogador 2 só pode receber a mensagem de "parabéns" quando ele acertar
+		 *
+		 * Missão 2 :
+		 * Acrescentar dicas para o jogador 2 (numero maior ou menor)
+		 * 
+		 * Missão 3 :
+		 * Acrescentar na mensagem de parabéns a quantidade de tentativas
+		 * Dica: criar uma variavel para contar
+		 * 
+		 *
+		 */
+		
+		
+
+	}
+
+}

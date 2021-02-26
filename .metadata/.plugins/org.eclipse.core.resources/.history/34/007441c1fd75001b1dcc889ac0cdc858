@@ -1,0 +1,34 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class DecisaoCompostaDesafio {
+
+	public static void main(String[] args) {
+		
+		String Corinthians = JOptionPane.showInputDialog ("Corinthians: ").toUpperCase();
+		String Fluminense = JOptionPane.showInputDialog("Fluminense: ").toUpperCase();
+			
+		if (Corinthians<0) {
+			System.out.println("Venceu!!!")
+		
+		/*
+		 * Capture dois times e os seus respectivos placares:
+		 * Exiba,
+		 * "Time 1 venceu"
+		 * ou
+		 * "Time 2 venceu"
+		 * ou
+		 * "Houve um empate"
+		 */
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

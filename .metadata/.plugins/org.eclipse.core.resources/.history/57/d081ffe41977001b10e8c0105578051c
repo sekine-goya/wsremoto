@@ -1,0 +1,42 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class Licao1 {
+
+	public static void main(String[] args) {
+		
+		
+		int dia = Integer.parseInt(JOptionPane.showInputDialog("dia: ").toUpperCase());
+		int mês = Integer.parseInt(JOptionPane.showInputDialog("mês: ").toUpperCase());
+		int dia = Integer.parseInt(JOptionPane.showInputDialog("ano: ").toUpperCase());
+		
+		while (dia>31) {
+			System.out.println("Dia invalido");
+		}
+		
+		
+		
+		
+		/*
+		 * Crie um programa que peça para o usuário o dia, mês e ano em variaveis 
+		 * separadas.
+		 * Valide todos os dados e aceite somente dados válidos.
+		 * 
+		 * 
+		 */
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

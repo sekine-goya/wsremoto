@@ -1,0 +1,17 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class DecisaoSimplesLista2 {
+
+	public static void main(String[] args) {
+	
+		String Nome = JOptionPane.showInputDialog("Nome: ").toUpperCase();
+		short dias = Short.parseShort(JOptionPane.showInputDialog("Dias: ")).toUpperCase();
+		
+		
+		
+
+	}
+
+}

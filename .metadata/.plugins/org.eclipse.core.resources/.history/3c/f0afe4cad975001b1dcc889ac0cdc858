@@ -1,0 +1,33 @@
+package variaveis;
+
+public class TipoString {
+
+	public static void main(String[] args) {
+		//String é um tipo de Referência - Toda referencia começa com a letra maiuscula
+		String email = "Sekine_Goya@hotmail.Com";
+		System.out.println("Original: "+ email);
+		System.out.println("Minusculo: "+ email.toLowerCase());
+		System.out.println("Maiuscula: "+ email.toUpperCase());
+		System.out.println("Qtde Caracteres: " + email.length());
+		System.out.println("Tem arroba? " + email.contains("@"));
+		System.out.println("Posição do @: " + email.indexOf("@"));
+		
+		
+		//s e k i n e _ g o y a @hotmail.com
+		//0 1 2 3 4 5 6 7 8 9 10
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+}

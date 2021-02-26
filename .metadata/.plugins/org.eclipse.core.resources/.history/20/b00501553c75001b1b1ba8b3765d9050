@@ -1,0 +1,44 @@
+package variaveis;
+
+public class TiposDados {
+
+	public static void main(String[] args) {
+		
+		String nome = "Vanessa Sekine";
+		int idade = 32; 
+		double altura = 1.56;
+		System.out.println(nome);
+		System.out.println(idade);
+		System.out.println(altura);
+		
+		
+		
+		/*
+		 * Alfanumérico : é um dado que vocÊ não utiliza em operações
+		 * aritméticas.
+		 * CEP:00010-009 => 00010-009
+		 * (em um contexto em que ele não esteja entre os dados mais criticos)
+		 * String representa um dado alfanumerico no Java
+		 * 
+		 * Numérico: é o dado que pode ser utilizado em operações 
+		 * aritméticas e/ou for um dado critico para pesquisa.
+		 * CEP: 00010-009 => 1
+		 * (em um contexto dos Correios, onde ele é um dado critico)
+		 * Dois tipos:
+		 * -inteiro que em Java é int ex> 9
+		 * -real que em Java é double ex> 9,5
+		 * 
+		 * 
+		 */
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,52 @@
+package br.com.concessionaria.modelo;
+
+public class Carro {
+
+	private float valor;
+	private String cor;
+	private boolean status;
+	private short velocidadeAtual;
+	private String modelo;
+	
+	public String RetornarCor {
+		return cor;
+		
+		
+	}
+	
+	//Sintaxe para os métodos
+	//<modificador><tipo do retorno><nome do metodo (<tipo do param> <nome do param>){
+	
+	public void preencherCor(String param) {
+		cor = param.toLowerCase();
+			
+	}
+	
+	public float retornarValor() {
+		return valor;
+	}
+	public void preencherValor(float param) {
+		valor = param.toLowerCase();
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

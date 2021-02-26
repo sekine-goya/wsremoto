@@ -1,0 +1,55 @@
+package br.com.concessionaria.principal;
+
+import br.com.concessionaria.modelo.Carro;
+
+public class TesteCarro {
+
+	public static void main(String[] args) {
+		//instanciando um objeto
+		Carro objeto = new Carro();
+		
+		objeto.preencherCor("azul");
+		System.out.println(objeto.retornarCor());
+		
+		objeto.preencherValor("50000");
+		
+		
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

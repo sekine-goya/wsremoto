@@ -1,0 +1,33 @@
+package repeticao;
+
+public class ForExemplo {
+
+	public static void main(String[] args) {
+		
+		/*
+		 * For: proprio para situações onde não há interação com o usuário final
+		 * Sintaxe:
+		 * -definir o contador e o inicio
+		 * - condição
+		 * - como ele vai contar?
+		 * 
+		 */
+		
+		for (int contador=0;contador<50;contador++) {
+			System.out.println("Vai chover");
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

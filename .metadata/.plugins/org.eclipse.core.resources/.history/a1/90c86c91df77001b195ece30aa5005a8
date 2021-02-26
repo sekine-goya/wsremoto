@@ -1,0 +1,56 @@
+package br.com.ecommerce.modelo;
+/*
+ * Design Pattern - Compilado com as melhores práticas para OO
+ * DTO (Data Transfer Object)
+ * Recomendações: 
+ * 1º TODOS os atributos devem ser privados
+ * 2º CADA atributo deve possuir um método para input e outro método para output
+ * 3º ???????
+ * 
+ * Atalho input e output em massa - Source => Generate Getters and Satters 
+ * 
+ * 
+ */
+
+
+public class Produto {
+
+	private int id;
+	private String descricao;
+	private float valorCompra;
+	private float valorVenda;
+	private int qtde;
+	
+	public void getTotalCompra (int qtde, float valorCompra) {
+		if (valorCompra * qtde) {	
+			return "Total de Compra"
+					
+			
+			
+		}
+			
+		return "Total da Compra: " 
+		
+			
+	}
+	
+	
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,44 @@
+package variaveis;
+
+import javax.swing.JOptionPane;
+
+public class TiposPrimitivos {
+	public static void main(String[] args) {
+		
+		int quantidade = Integer.parseInt(JOptionPane.showInputDialog("Digite a qtde"));
+		float valor = Float.parseFloat(JOptionPane.showInputDialog("Valor"));
+		float total = quantidade*valor;
+		float valorDesconto = valor * (float) 0.9;
+		// Cast => é quando reduz o tipo de dado na hierárquia. Ex. acima (float) 
+		
+		System.out.println("Total...: " + total);
+		System.out.println("Desconto.: " + valorDesconto);
+		
+	/*
+	 * boolean : dado lógico (true/false)
+	 * char : 1 caracter (sempre dentro de apostrofos 'a')
+	 * ======Inteiros=======
+	 * byte : -127/+128 caracteres
+	 * short : -32.000/+32.000
+	 * int : -9T/+2T
+	 * long : 9.....
+	 * ===================================
+	 * float : Precisão das casas decimais
+	 * double : Precisão das casas decimais - dobro de precisão do float
+	 * Obs.: Pensar sempre no consumo de memória
+	 */
+		
+		/*
+		 * Capturem: 
+		 * - qtde de computadores que existem no itau
+		 * - valor medio de cada computador
+		 * Saída:
+		 * - exibir o total
+		 * - exibir o valor medio com 10% de desconto
+		 */
+		
+		
+		
+	}
+
+}
